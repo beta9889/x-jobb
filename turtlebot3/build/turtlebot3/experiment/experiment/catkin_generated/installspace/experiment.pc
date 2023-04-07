@@ -1,0 +1,8 @@
+prefix=C:/ws/turtlebot3/install
+
+Name: experiment
+Description: Description of experiment
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

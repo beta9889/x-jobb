@@ -1,0 +1,8 @@
+prefix=C:/ws/turtlebot3/install
+
+Name: hls_lfcd_lds_driver
+Description: Description of hls_lfcd_lds_driver
+Version: 1.1.2
+Cflags: -I${prefix}/include -IC:/opt/ros/melodic/x64/include/boost-1_66
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs sensor_msgs

@@ -1,0 +1,8 @@
+prefix=C:/ws/turtlebot3/install
+
+Name: x-jobb
+Description: Description of x-jobb
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

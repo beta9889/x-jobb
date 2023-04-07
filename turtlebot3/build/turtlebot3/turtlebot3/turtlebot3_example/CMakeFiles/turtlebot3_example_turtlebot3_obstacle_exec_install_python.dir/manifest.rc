@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/ws/turtlebot3/build/turtlebot3/turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_turtlebot3_obstacle_exec_install_python.dir/embed.manifest"

@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/ws/turtlebot3/build/turtlebot3/experiment/experiment/CMakeFiles/experiment.dir/embed.manifest"

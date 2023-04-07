@@ -1,0 +1,8 @@
+prefix=C:/ws/turtlebot3/devel
+
+Name: warehouse_simulation
+Description: Description of warehouse_simulation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

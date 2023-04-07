@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/ws/turtlebot3/build/utils/hls_lfcd_lds_driver/CMakeFiles/hlds_laser_segment_publisher.dir/embed.manifest"

@@ -1,0 +1,1 @@
+c:\opt\ros\melodic\x64\setup.bat&& c:\ws\turtlebot3\devel\setup.bat&& set TURTLEBOT3_MODEL=waffle
