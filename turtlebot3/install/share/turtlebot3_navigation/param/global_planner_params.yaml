@@ -21,3 +21,4 @@ GlobalPlanner:                                  # Also see: http://wiki.ros.org/
   
   #----------------------
   outline_map: false
+  static_map: false

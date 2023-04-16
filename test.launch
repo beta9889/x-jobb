@@ -6,20 +6,28 @@
   <arg name="goal_x" default="10"/>
   <arg name="goal_y" default="10"/>
   <arg name="fileName" default="test.csv"/>
-
-  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/>
-  <!-- <include file="$(find dynamic_logistics_warehouse)/launch/logistics_warehouse.launch"/> -->
+  <arg name="gui" default="false"/>
+ 
+  <!-- <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"> -->
+  <include file="$(find dynamic_logistics_warehouse)/launch/logistics_warehouse.launch">
+  <!-- <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_house.launch"> -->
+   
+   <arg name="gui" value="$(arg gui)"/>
+  </include>
 
   <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch">
     <arg name="slam_methods" value="cartographer"/>
     <arg name="configuration_basename" value="turtlebot3_lds_2d_gazebo.lua" />
   </include>
 
-  <node pkg="experiment" name="experiment" type="experiment">
-  <param name="goal_x" type="double" value="$(arg goal_x)"/>
-  <param name="goal_y" type="double" value="$(arg goal_y)"/>
-  <param name="fileName" type="string" value="$(find experiment)/result/$(arg fileName)"/>
+  <node pkg="experiment" name="experiment" type="experiment" required="true">
+    <param name="goal_x" type="double" value="$(arg goal_x)"/>
+    <param name="goal_y" type="double" value="$(arg goal_y)"/>
+    <param name="fileName" type="string" value="$(find experiment)/result/$(arg fileName)"/>
+    <param name="maxGoal_x" type="double" value="3"/>
+    <param name="maxGoal_y" type="double" value="3"/>
   </node>
+
     <!-- move_base -->
   <include file="$(find turtlebot3_navigation)/launch/move_base.launch">
     <arg name="model" value="$(arg model)" />

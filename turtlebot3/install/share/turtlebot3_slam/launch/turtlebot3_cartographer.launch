@@ -18,7 +18,8 @@
   <!-- Arguments -->
   <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
   <arg name="configuration_basename" default="turtlebot3_lds_2d.lua"/>
-  <arg name="mapToLoad" default=""/>
+  <arg name="Map" default=""/>
+
   <!-- move_base -->
   <!-- <include file="$(find turtlebot3_navigation)/launch/move_base.launch">
     <arg name="model" value="$(arg model)" />
@@ -29,7 +30,7 @@
   <node pkg="cartographer_ros" type="cartographer_node" name="cartographer_node" 
         args="-configuration_directory $(find turtlebot3_slam)/config
               -configuration_basename $(arg configuration_basename)
-              -load_state_filename=$(arg mapToLoad)"
+              -load_state_filename=$(arg Map)"
               
            ><!--        output="screen"> -->
     <remap from="/imu" to="/flat_imu"/>

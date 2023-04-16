@@ -440,6 +440,12 @@ experiment_BINARY_DIR:STATIC=C:/ws/turtlebot3/build/turtlebot3/experiment
 //Value Computed by CMake
 experiment_SOURCE_DIR:STATIC=C:/ws/turtlebot3/src/turtlebot3/experiment
 
+//Value Computed by CMake
+experiment_node_BINARY_DIR:STATIC=C:/ws/turtlebot3/build/turtlebot3/experiment_node
+
+//Value Computed by CMake
+experiment_node_SOURCE_DIR:STATIC=C:/ws/turtlebot3/src/turtlebot3/experiment_node
+
 //The directory containing a CMake configuration file for gazebo.
 gazebo_DIR:PATH=C:/opt/ros/melodic/x64/lib/cmake/gazebo
 
@@ -505,6 +511,12 @@ message_generation_DIR:PATH=C:/opt/ros/melodic/x64/share/message_generation/cmak
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=C:/opt/ros/melodic/x64/share/message_runtime/cmake
+
+//Value Computed by CMake
+model_node_BINARY_DIR:STATIC=C:/ws/turtlebot3/build/turtlebot3/model_node
+
+//Value Computed by CMake
+model_node_SOURCE_DIR:STATIC=C:/ws/turtlebot3/src/turtlebot3/model_node
 
 //The directory containing a CMake configuration file for move_base_msgs.
 move_base_msgs_DIR:PATH=C:/opt/ros/melodic/x64/share/move_base_msgs/cmake

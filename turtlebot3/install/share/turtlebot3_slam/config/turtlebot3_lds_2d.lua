@@ -19,7 +19,7 @@ options = {
   map_builder = MAP_BUILDER,
   trajectory_builder = TRAJECTORY_BUILDER,
   map_frame = "map",
-  tracking_frame = "imu_link", -- imu_link, If you are using gazebo, use 'base_footprint' (libgazebo_ros_imu's bug)
+  tracking_frame = "base_footprint", -- imu_link, If you are using gazebo, use 'base_footprint' (libgazebo_ros_imu's bug)
   published_frame = "odom",
   odom_frame = "odom",
   provide_odom_frame = false,
@@ -44,7 +44,6 @@ options = {
   -- my changes
   -- collect_metrics = true,
   -- save_state-filename = "grey_map",
-  -- configuration_basename = "c:/ws",
   -- load_State_filename="temp.pbstream"
 }
 

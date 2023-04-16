@@ -81,7 +81,7 @@ void setGoal(double x, double y){
   goal.target_pose.pose.orientation.w = 1.0;
 }
 
-int linuxmain(int argc, char** argv){
+int main(int argc, char** argv){
   ros::init(argc, argv, "experiment_node");
   ros::NodeHandle nh;
   ros::Subscriber sub = nh.subscribe("/move_base_simple/goal", 10, getGoal);
