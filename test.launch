@@ -7,11 +7,14 @@
   <arg name="goal_y" default="10"/>
   <arg name="fileName" default="test.csv"/>
   <arg name="gui" default="false"/>
- 
+  <arg name="worldFile" default="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
+  
+
+
+  <include file="$(arg worldFile)">
   <!-- <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"> -->
-  <include file="$(find dynamic_logistics_warehouse)/launch/logistics_warehouse.launch">
+  <!-- <include file="$(find dynamic_logistics_warehouse)/launch/logistics_warehouse.launch"> -->
   <!-- <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_house.launch"> -->
-   
    <arg name="gui" value="$(arg gui)"/>
   </include>
 
@@ -19,6 +22,7 @@
     <arg name="slam_methods" value="cartographer"/>
     <arg name="configuration_basename" value="turtlebot3_lds_2d_gazebo.lua" />
   </include>
+
 
   <node pkg="experiment" name="experiment" type="experiment" required="true">
     <param name="goal_x" type="double" value="$(arg goal_x)"/>

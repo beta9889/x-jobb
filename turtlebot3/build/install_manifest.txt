@@ -145,12 +145,10 @@ C:/ws/turtlebot3/install/share/turtlebot3_navigation/package.xml
 C:/ws/turtlebot3/install/share/turtlebot3_navigation/launch/amcl.launch
 C:/ws/turtlebot3/install/share/turtlebot3_navigation/launch/move_base.launch
 C:/ws/turtlebot3/install/share/turtlebot3_navigation/launch/turtlebot3_navigation.launch
+C:/ws/turtlebot3/install/share/turtlebot3_navigation/maps/house.pgm
+C:/ws/turtlebot3/install/share/turtlebot3_navigation/maps/house.yaml
 C:/ws/turtlebot3/install/share/turtlebot3_navigation/maps/map.pgm
-C:/ws/turtlebot3/install/share/turtlebot3_navigation/maps/map.pgm.backup
 C:/ws/turtlebot3/install/share/turtlebot3_navigation/maps/map.yaml
-C:/ws/turtlebot3/install/share/turtlebot3_navigation/maps/map.yaml.backup
-C:/ws/turtlebot3/install/share/turtlebot3_navigation/maps/testFile.pgm
-C:/ws/turtlebot3/install/share/turtlebot3_navigation/maps/testFile.yaml
 C:/ws/turtlebot3/install/share/turtlebot3_navigation/param/base_local_planner_params.yaml
 C:/ws/turtlebot3/install/share/turtlebot3_navigation/param/costmap_common_params_burger.yaml
 C:/ws/turtlebot3/install/share/turtlebot3_navigation/param/costmap_common_params_waffle.yaml
